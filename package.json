@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "set NODE_ENV=production&&webpack",
-    "build2": "NODE_ENV=production webpack",
-    "start": "webpack-dev-server"
+    "build-for-unix": "NODE_ENV=production webpack",
+    "start": "webpack-dev-server",
+    "build": "set NODE_ENV=production&&webpack"
   },
   "babel": {
     "presets": [
